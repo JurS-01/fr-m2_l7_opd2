@@ -27,10 +27,14 @@ h1::before, h1::after {
 
 h1::before{
     border-radius: 95px 0 0 95px;
+    -moz-border-radius: 95px 0 0 95px;
+    -webkit-border-radius: 95px 0 0 95px;
     left: 0;
 }
 
 h1::after {
     border-radius: 0 95px 95px 0;
+    -moz-border-radius: 0 95px 95px 0;
+    -webkit-border-radius: 0 95px 95px 0;
     right: 0;
 }
